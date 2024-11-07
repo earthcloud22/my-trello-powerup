@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Trello Power-Up</title>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <script>
+        window.TrelloPowerUp.initialize({
+            'card-buttons': function(t, opts) {
+                return [{
+                    text: 'Sync with Google Sheets',
+                    callback: function(t) {
+                        // Callback code for your custom functionality
+                    }
+                }];
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Trello Power-Up</h1>
+</body>
+</html>
